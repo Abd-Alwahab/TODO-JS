@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <header class="header">
+        <h1 class="title">TODO Application</h1>
+        
+        <div class="clock">
+
+                
+
+        </div>
+
+        <form class="add">
+            <div>
+                <label for="add">Add new todo</label>
+                <span class="step step--one">1</span>
+                <input type="text" id="add" name="add" class="add__input" placeholder="add new tood">   
+            </div>
+            <div>
+                <label for="date">when you should do it?</label>
+                <span class="step step--two">2</span>
+                <input type="time" class="add__date" name="add__date" id="date">
+            </div>
+        </form>
+
+
+     <form class="search">
+         <input type="text" name="" id="" class="input" placeholder="search todos">
+     </form>
+     
+     <ul class="list">
+
+        <li class="list__item">
+            <span class="item__text">Go to Park</span>
+            <div class="icons">
+               <i class="fas fa-trash-alt item__icon delete"></i>
+               <i class="fas fa-map-marker item__icon mark"></i>
+            </div>
+        </li>
+
+        <li class="list__item">
+            <span class="item__text">Build React Application</span>
+            <span class="date"></span>
+            <div class="icons">
+               <i class="fas fa-trash-alt item__icon delete"></i>
+               <i class="fas fa-map-marker item__icon mark"></i>
+            </div>
+        </li>
+
+        
+     </ul>
+
+
+ 
+
+    </header>
+
+
+
+    <script src="App.js"></script>
+</body>
+</html>
