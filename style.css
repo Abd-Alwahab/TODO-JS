@@ -1,7 +1,7 @@
 body {
 
     margin: 0;
-    background-color: orange;
+    background-color: rgb(196, 196, 196);
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
     margin: 0 0 2rem 0;
 }
 
-.input {
+input {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
@@ -35,15 +35,15 @@ body {
 
 
 
-.input:focus {
-    outline: none;
+input:focus {
+    outline: 2px solid green;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.534);
 }
 
 /* style the clock */
 .clock  {
     font-size:2.7rem;
-    color: lightgray;
+    color: #000;
 
 }
 
